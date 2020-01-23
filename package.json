@@ -1,16 +1,15 @@
 {
-  "name": "javascript-action",
+  "name": "rm",
   "version": "1.0.0",
-  "description": "JavaScript Action Template",
+  "description": "GitHub Action to recursively and forcefully remove a file or directory",
   "main": "index.js",
   "scripts": {
     "lint": "eslint index.js",
-    "package": "ncc build index.js -o dist",
-    "test": "eslint index.js && jest"
+    "package": "ncc build index.js -o dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/actions/javascript-action.git"
+    "url": "git+https://github.com/JesseTG/rm.git"
   },
   "keywords": [
     "GitHub",
@@ -20,15 +19,15 @@
   "author": "GitHub",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/actions/javascript-action/issues"
+    "url": "https://github.com/JesseTG/rm/issues"
   },
-  "homepage": "https://github.com/actions/javascript-action#readme",
+  "homepage": "https://github.com/JesseTG/rm#readme",
   "dependencies": {
-    "@actions/core": "^1.1.1"
+    "@actions/core": "^1.2.1",
+    "@actions/io": "^1.0.2"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5",
-    "eslint": "^6.3.0",
-    "jest": "^24.9.0"
+    "eslint": "^6.3.0"
   }
 }

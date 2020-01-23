@@ -1,13 +1,12 @@
-name: 'Wait'
-description: 'Wait a designated number of milliseconds'
+name: "Remove File"
+description: |
+  Deletes a given file or folder in a cross-platform way. Succeeds even if there is
+  no file at the requested path.
+author: Jesse Talavera-Greenberg
 inputs:
-  milliseconds:  # id of input
-    description: 'number of milliseconds to wait'
+  path:
     required: true
-    default: '1000'
-outputs:
-  time: # output will be available to future steps 
-    description: 'The message to output'
+    description: The file path to remove
 runs:
   using: 'node12'
   main: 'dist/index.js'
