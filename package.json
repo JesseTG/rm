@@ -1,6 +1,6 @@
 {
   "name": "rm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "GitHub Action to recursively and forcefully remove a file or directory",
   "main": "index.js",
   "scripts": {
@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/JesseTG/rm#readme",
   "dependencies": {
-    "@actions/core": "^1.2.1",
+    "@actions/core": "^1.2.4",
     "@actions/io": "^1.0.2"
   },
   "devDependencies": {
     "@zeit/ncc": "^0.20.5",
-    "eslint": "^6.3.0"
+    "eslint": "^6.8.0"
   }
 }
