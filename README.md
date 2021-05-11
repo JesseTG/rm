@@ -28,6 +28,7 @@ Other useful facts:
 - Only supports one path at a time; for multiple paths, use this action multiple times.
 - Supports relative and absolute paths, but does *not* support globs or wildcards.
 - **Does not protect important system paths.** Be careful if you're using a self-hosted runner.
+- Can be used to remove files from your repository within a workflow, but you will have to commit the changes yourself.
 
 ## License
 
