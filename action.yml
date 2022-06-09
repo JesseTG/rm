@@ -8,5 +8,5 @@ inputs:
     required: true
     description: The file path to remove
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
