@@ -14,7 +14,7 @@ Use this action in any particular step like so:
 
 ```yaml
 - name: Remove File
-  uses: JesseTG/rm@v1.0.2
+  uses: JesseTG/rm@v1.0.3
   with:
     path: /path/to/something/you/want/to/delete
 
